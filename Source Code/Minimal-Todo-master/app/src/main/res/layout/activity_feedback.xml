@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar xmlns:tools="http://schemas.android.com/tools"
+        tools:ignore="MissingPrefix"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        tools:context=".MainActivity">
+
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="154dp"
+            android:layout_height="43dp"
+            android:layout_alignParentStart="true"
+            android:text="Your Name"
+            android:textSize="30sp"
+            android:layout_marginTop="70dp"
+            tools:layout_editor_absoluteX="0dp"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView1"
+            android:paddingEnd="20sp"
+            android:paddingStart="20sp"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="133dp"
+            android:layout_height="56dp"
+            android:layout_above="@+id/editText2"
+            android:layout_alignParentStart="true"
+            android:paddingTop="10dp"
+            android:text="Message"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:layout_above="@+id/button"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="20dp"
+            android:maxLines="5"
+            android:minLines="5"
+            android:paddingEnd="20sp"
+            android:paddingStart="20sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="240sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="77dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:singleLine="true"
+            android:text="Send"
+            tools:layout_editor_absoluteX="138dp"
+            tools:layout_editor_absoluteY="387dp"
+            android:background="#303F9F"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

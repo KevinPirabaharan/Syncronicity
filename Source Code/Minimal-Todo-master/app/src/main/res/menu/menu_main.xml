@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AddToDoActivity">
+
+    <item
+        android:id="@+id/feedbackButton"
+        android:title="Send Feedback"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/preferences"
+        android:title="@string/action_settings"
+        app:showAsAction="never"
+        />
+
+    <item android:title="@string/about"
+        android:id="@+id/aboutMeMenuItem"
+        app:showAsAction="never"
+        />
+
+    <item android:title="@string/sign_out"
+        android:id="@+id/signOut"
+        app:showAsAction="never"
+        />
+
+</menu>

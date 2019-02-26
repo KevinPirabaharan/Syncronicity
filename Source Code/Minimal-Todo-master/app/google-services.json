@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "181072387982",
+    "firebase_url": "https://app3760-6819c.firebaseio.com",
+    "project_id": "app3760-6819c",
+    "storage_bucket": "app3760-6819c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181072387982:android:cd4c882a6246b2e3",
+        "android_client_info": {
+          "package_name": "com.avjindersinghsekhon.minimaltodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181072387982-q7t7v07c5d5701tq412kt4c9kqtnehel.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avjindersinghsekhon.minimaltodo",
+            "certificate_hash": "56cf4c8eeeea8fb14afaa3463b6cc27c0cdc2bff"
+          }
+        },
+        {
+          "client_id": "181072387982-e5v7q71stqdp6qfdmgv3vlhjlppldbnp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.avjindersinghsekhon.minimaltodo",
+            "certificate_hash": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          }
+        },
+        {
+          "client_id": "181072387982-er95429cdr518cp67jsb11hbgg8dg57j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbzUzXuXYCKyq4doGQvOuq4eMTdlWbIK0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181072387982-er95429cdr518cp67jsb11hbgg8dg57j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

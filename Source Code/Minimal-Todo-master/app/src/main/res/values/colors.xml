@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="amber">#FFC107</color>
+    <color name="red_primary">#D32F2F</color>
+
+    <color name="primary">#3F51B5</color>
+    <color name="primary_dark">#303F9F</color>
+    <color name="accent">#03A9F4</color>
+    <!--<color name="accent">#FF9100</color>-->
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+
+    <color name="grey600">#757575</color>
+    <color name="grey300">#E0E0E0</color>
+
+    <color name="primary_lightest">#F0F1F9</color>
+
+</resources>

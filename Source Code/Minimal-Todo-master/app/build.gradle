@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias ''
+            keyPassword ''
+            storeFile file('/Users/avjindersinghsekhon/androidapps.jks')
+            storePassword ''
+        }
+    }
+    compileSdkVersion 23
+    defaultConfig {
+        applicationId "com.avjindersinghsekhon.minimaltodo"
+        minSdkVersion 24
+        targetSdkVersion 23
+        versionCode 3
+        versionName "1.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+    lintOptions {
+        abortOnError false
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.android.gms:play-services-analytics:11.8.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.google.firebase:firebase-database:11.8.0'
+    implementation 'com.google.firebase:firebase-auth:11.8.0'
+    implementation 'com.google.android.gms:play-services-auth:11.8.0'
+    implementation 'uk.co.chrisjenx:calligraphy:2.1.0'
+    implementation 'com.github.ganfra:material-spinner:1.1.0'
+    implementation 'com.wdullaer:materialdatetimepicker:1.5.1'
+    implementation 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.1'
+    implementation 'com.github.ganfra:material-spinner:1.1.0'
+    implementation 'com.android.support:recyclerview-v7:23.1.0'
+    implementation 'com.android.support:design:23.1.0'
+    implementation 'com.android.support:appcompat-v7:23.1.0'
+    implementation 'com.android.support:support-v13:23.1.0'
+    implementation 'com.android.support:support-v4:23.1.0'
+    implementation 'com.github.clans:fab:1.6.4'
+    implementation 'com.android.support:cardview-v7:27.1.0'
+}
+
+apply plugin: 'com.google.gms.google-services'
